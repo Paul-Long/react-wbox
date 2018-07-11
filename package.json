@@ -1,0 +1,30 @@
+{
+  "name": "react-wbox",
+  "version": "1.0.0",
+  "description": "react redux",
+  "main": "dist/",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint --ext .js src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Long/react-wbox.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "router"
+  ],
+  "author": "paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Long/react-wbox/issues"
+  },
+  "homepage": "https://github.com/Paul-Long/react-wbox#readme",
+  "devDependencies": {
+    "lodash": "^4.17.10",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  }
+}
